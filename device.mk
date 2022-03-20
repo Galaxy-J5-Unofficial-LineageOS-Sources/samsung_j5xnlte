@@ -2,13 +2,10 @@
 $(call inherit-product-if-exists, vendor/samsung/j5xnlte/j5xnlte-vendor.mk)
 
 # Inherit J5 2015 device
-$(call inherit-product, device/samsung/msm8916-common/device-j5x.mk)
-
-# Inherit NFC support
-$(call inherit-product, device/samsung/msm8916-common/nfc.mk)
+$(call inherit-product, device/samsung/msm8916-common/device.mk)
 
 # Inherit from common
-$(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
+$(call inherit-product, device/samsung/msm8916-common/lineage_msm8916.mk)
 
 LOCAL_PATH := device/samsung/j5xnlte
 
