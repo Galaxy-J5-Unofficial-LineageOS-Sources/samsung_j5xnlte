@@ -5,7 +5,7 @@ $(call inherit-product-if-exists, vendor/samsung/j5xnlte/j5xnlte-vendor.mk)
 $(call inherit-product, device/samsung/msm8916-common/device_j5xnlte.mk)
 
 # Inherit from common
-$(call inherit-product, device/samsung/msm8916-common/lineage_msm8916.mk)
+$(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
 
 # Inherit from common
 $(call inherit-product, device/samsung/j5x-common/device-common.mk)
